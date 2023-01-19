@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent {
+  currentDate = new Date();
 
+  constructor() { }
+
+  ngOnInit(): void {}
 }
